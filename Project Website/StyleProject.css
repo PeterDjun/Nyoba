@@ -1,0 +1,225 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: MyFont;
+    src: url(../Assets/MilknBalls-BlackDemo.otf)
+}
+h1 {
+    font-weight: 700;
+    font-family: MyFont;
+}
+ul.logo {
+    top: 0;
+    position: sticky;
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.lambang {
+    transition: 0.5s;
+}
+.lambang:hover{
+    background-color: teal;
+}
+.logo > li > a {
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.logo > li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: auto;
+    display: inline-block;
+}
+.laptop {
+    display: none !important;
+}
+.bg-image {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+}
+#biodata {
+    padding: 2em 0;
+}
+.open {
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    transform: scale(0.8);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.biodata, .edukasi, .skill {
+    text-align: center;
+}
+.icon-awal {
+    max-width: 12em;
+}
+.konten {
+    text-align: center;
+    width: 60%;
+    max-width: 24em;
+    font-size: 1.2em;
+    margin: 1em auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edukasi, .skill {
+    display: inline-block;
+    margin-top: 5em;
+}
+.bukti {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.bukti-foto {
+    max-width: 300px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+.info > div {
+    display: inline-block;
+}
+.icon-contact {
+    display: block;
+}
+.logo-contact {
+    width: 50px;
+    margin: 2em;
+}
+.contact-laptop {
+    display: none;
+}
+hr {
+    max-width: 300px;
+    margin: 0 auto;
+}
+#portofolio {
+    padding: 2em 0;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .laptop {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    ul.logo {
+        text-align: right;
+    }
+    .hp {
+        display: none;
+    }
+    .info {
+        width: 49.5%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .info > div {
+        display: block;
+    }
+    .form {
+        width: 49.5%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .icon-contact {
+        display: inline-block;
+        min-width: 300px;
+        text-decoration: none;
+        color: black;
+    }
+    .logo-contact {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contact-laptop {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    hr {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .edukasi, .skill {
+        width: 49.5%;
+        vertical-align: top;
+    }
+    li.icon {
+        padding: 0;
+        width: 45px;
+        margin: 0.1em 1em;
+        float: left;
+    }
+    .laptop {
+        display: block !important;
+    }
+    .icon > img {
+        width: 100%;
+    }
+}
+.info {
+    text-align: center;
+}
+.Isian {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+}
+.Isian > label {
+    display: block;
+    font-size: 1.2em;
+}
+.Isian > input {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+.Isian > textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+.tombol {
+    background-color: teal;
+    color: white;
+    margin: 1em 0;
+    width: 85%;
+    border: none;
+    font-size: 1em;
+    padding: 0.5em 0;
+}
+.form {
+    text-align: center;
+}
+.judul {
+    text-align: center;
+    text-decoration: underline;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 2em;
+    text-align: center;
+    padding: 1.5em 0;
+}
